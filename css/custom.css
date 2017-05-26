@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-01-2017, 13:24:34
+    Author     : TheHasax
+*/
+
+body {
+    max-width: 100%;
+    /*background-color: red;*/ /*For testing purposes*/
+}
+header {
+    float: left;
+}
+
+/*IDs*/
+
+#bgvid {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    overflow:auto;
+}
+#header_info {
+    display: none;
+    max-width: 100%;
+    margin: 50px 30px;
+    padding: 30px;
+    background: rgba(62,90,210,0.7);
+    width: 40%;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+#header_info h1 {
+    margin: 0;
+}
+#header_info p a {
+    background: rgb(61,180,42);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#header_info p a:hover {
+    background: rgb(55,153,39);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    transition: .5s ease;
+}
+#info_1 {
+    background-image: url("images/welcome_tilt.jpg");
+    background-size: 100%;
+}
+#test_blank {
+    width: auto;
+    height: 300px;
+    display: none; /*This will make the cut images not be cut in mobile ver.*/
+}
+#test_blank_mb {
+    width: 100%;
+    height: 300px;
+    display: block; /*This will make the cut images not be cut in mobile ver.*/
+}
+#test_blank img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%
+}
+#test_blank_mb img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%
+}
+#top_header {
+    height: 25px;
+    max-height: 25px;
+    background: black;
+    position: fixed;
+    z-index: 100;
+}
+#top_header img {
+    height: 100%;
+    padding: 2px 0 2px;
+}
+#wrapper {
+    background: white;
+    position: absolute;
+    top: 400px;
+    padding-top: 40px;
+}
+
+/*Classes*/
+
+.clear {
+    float: none;
+}
+
+.filler {
+    color: red;
+    border: 1px solid black;
+    opacity: 0;
+    height: 200px;
+    display: none;
+}
+.filler img {
+    max-width: 100%;
+}
+.space {
+    height: 50px;
+}
+.test_left {
+    max-width: 100%;
+    max-height: 300px;
+    height: 300px;
+    position: relative;
+    padding: 0;
+    z-index: 1;
+}
+.test_right {
+    max-width: 100%;
+    max-height: 300px;
+    height: 300px;
+    position: relative;
+    padding: 0;
+    z-index: 1;
+}
+.test_text_left {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+.test_text_right {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #header_info {
+        display: block;
+    }
+    #test_blank {
+        display: block;
+    }
+    #test_blank_mb {
+        display: none;
+    }
+    .test_text_left {
+        font-size: 20px;
+        top: 20px;
+        right: -10%;
+    }
+    .test_text_right {
+        font-size: 20px;
+        top: 70px;
+        left: -10%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #header_info {
+        display: block;
+    }
+    #test_blank {
+        display: block;
+    }
+    #test_blank_mb {
+        display: none;
+    }
+    .filler {
+        display: block;
+    }
+    .test_text_left {
+        font-size: 20px;
+        top: 20px;
+        right: -10%;
+    }
+    .test_text_right {
+        font-size: 20px;
+        top: 70px;
+        left: -10%;
+    }
+}
