@@ -13,6 +13,7 @@ body {
     /*background-color: red;*/ /*For testing purposes*/
 }
 h1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 1.22em;
     text-decoration: none;
     padding-bottom: 15px;
@@ -55,7 +56,8 @@ header {
     background: rgba(0,136,204,0.8);
     width: 40%;
     color: white;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
 #header_info h1 {
     margin: 0;
@@ -72,6 +74,7 @@ header {
     padding: 5px 10px;
     text-decoration: none;
     color: white;
+    -webkit-transition: .5s ease;
     transition: .5s ease;
 }
 #info_1 img {
@@ -83,7 +86,7 @@ header {
     background-size: auto 100%;
 }
 #info_3 img {
-    background: url(../images/移动延时1.gif) no-repeat center;
+    background: url(../images/panorama.gif) no-repeat center;
     background-size: auto 100%;
 }
 #info_4 img {
@@ -280,19 +283,19 @@ header {
 }
 @media only screen and (min-width: 992px) {
     h1 {
-        font-size: 3vmin;
+        font-size: 2vmin;
     }
     h3 {
-        font-size: 4.2vmin;
+        font-size: 3vmin;
     }
     #header_info {
         display: block;
     }
     #header_info a {
-        font-size: 3vmin;
+        font-size: 2vmin;
     }
     #top_header p {
-        font-size: 2.5vmin;
+        font-size: 1.8vmin;
     }
     #wrapper {
         position: relative;
@@ -324,12 +327,12 @@ header {
         left: -16.66666667%;
     }
     .test_text_left {
-        font-size: 2.7vmin;
+        font-size: 2vmin;
         top: 20px;
         right: -10%;
     }
     .test_text_right {
-        font-size: 2.7vmin;
+        font-size: 2vmin;
         top: 20px;
         left: -20%;
     }

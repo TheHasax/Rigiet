@@ -26,8 +26,7 @@ and open the template in the editor.
             <div id="header_info" class="pull-right col-lg-4 col-md-5 col-sm-6">
                 <p class="h1">Rigiet</p>
                 <p>
-                <p><a href="/777/Create-Fullscreen-HTML5-Page-Background-Video">Return to article</a>
-                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dictum turpis, eu mollis justo gravida ac. Proin non eros blandit, rutrum est a, cursus quam. Nam ultricies, velit ac suscipit vehicula, turpis eros sollicitudin lacus, at convallis mauris magna non justo. Etiam et suscipit elit. Morbi eu ornare nulla, sit amet ornare est. Sed vehicula ipsum a mattis dapibus. Etiam volutpat vel enim at auctor.</h1>
+                <h1>Hello worldLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dictum turpis, eu mollis justo gravida ac. Proin non eros blandit, rutrum est a, cursus quam. Nam ultricies, velit ac suscipit vehicula, turpis eros sollicitudin lacus, at convallis mauris magna non justo. Etiam et suscipit elit. Morbi eu ornare nulla, sit amet ornare est. Sed vehicula ipsum a mattis dapibus. Etiam volutpat vel enim at auctor.</h1>
                 <p><a class="col-lg-12 col-md-12 col-sm-12" href="signup.php">Signup</a>
             </div>
         </header>

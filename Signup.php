@@ -63,7 +63,7 @@ and open the template in the editor.
             ?>
         <div id="wrapperSU">
             <div class="filler col-lg-2 col-md-1"><img src="images/blank_br.png" alt=""/></div>
-            <h2 class="col-lg-8 col-md-9">Fyld denne form ud, og bliv en af de første til at købe en Regiet.</h2>
+            <h2 class="col-lg-8 col-md-9">Fyld denne form ud, og bliv en af de første til at købe en Rigiet til en biligere pris.</h2>
             <div class="filler col-lg-2 col-md-1"><img src="images/blank_br.png" alt=""/></div>
             <div class="signupForm col-lg-5 col-md-6 col-sm-8 col-xs-12"><p><span class="error">* påkrævet.</span></p>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
